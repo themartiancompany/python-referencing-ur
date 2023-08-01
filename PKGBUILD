@@ -1,7 +1,7 @@
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 
 pkgname=python-referencing
-pkgver=0.29.1
+pkgver=0.30.0
 pkgrel=1
 pkgdesc='An implementation-agnostic implementation of JSON reference resolution'
 arch=('any')
@@ -20,7 +20,7 @@ checkdepends=(
   'python-pytest-subtests'
   'python-jsonschema'
 )
-_commit='bcefc079980b7ea1fa8e062cffd1afed5a21cf1f'
+_commit='627e6622bd805a503e8dfe4aed3df57574c29458'
 source=(
   "$pkgname::git+https://github.com/python-jsonschema/referencing#commit=$_commit"
   'github.com-python-jsonschema-referencing-suite::git+https://github.com/python-jsonschema/referencing-suite'
