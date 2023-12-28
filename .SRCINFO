@@ -1,6 +1,6 @@
 pkgbase = python-referencing
 	pkgdesc = An implementation-agnostic implementation of JSON reference resolution
-	pkgver = 0.31.1
+	pkgver = 0.32.0
 	pkgrel = 1
 	url = https://referencing.readthedocs.io
 	arch = any
@@ -16,7 +16,7 @@ pkgbase = python-referencing
 	depends = python
 	depends = python-attrs
 	depends = python-rpds-py
-	source = python-referencing::git+https://github.com/python-jsonschema/referencing#commit=4f7e8bc935d89644546bf900de012b4df5b9b06a
+	source = python-referencing::git+https://github.com/python-jsonschema/referencing#commit=ff99d1e5e46c43c63c0bc45188206d02615c0672
 	source = github.com-python-jsonschema-referencing-suite::git+https://github.com/python-jsonschema/referencing-suite
 	b2sums = SKIP
 	b2sums = SKIP
