@@ -1,7 +1,7 @@
 pkgbase = python-referencing
 	pkgdesc = An implementation-agnostic implementation of JSON reference resolution
 	pkgver = 0.33.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://referencing.readthedocs.io
 	arch = any
 	license = MIT
