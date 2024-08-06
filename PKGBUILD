@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 
 pkgname=python-referencing
@@ -61,3 +65,4 @@ package() {
   ln -s "$site_packages/${pkgname#python-}-$pkgver.dist-info/licenses/COPYING" \
     "$pkgdir/usr/share/licenses/$pkgname/COPYING"
 }
+
