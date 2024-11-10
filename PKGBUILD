@@ -5,11 +5,24 @@
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 
 _py="python"
+_pyver="$( \
+  "${_py}" \
+    -V | \
+    awk \
+      '{print $2}')"
+_pymajver="${_pyver%.*}"
+_pyminver="${_pymajver#*.}"
+_pynextver="${_pymajver%.*}.$(( \
+  ${_pyminver} + 1))"
 _pkg=referencing
 pkgname="${_py}-${_pkg}"
 pkgver=0.35.1
 pkgrel=1
-pkgdesc='An implementation-agnostic implementation of JSON reference resolution'
+pkgdesc=(
+  'An implementation-agnostic'
+  'implementation of JSON reference resolution'
+)
+pkgdesc="${_pkgdesc[*]}"
 arch=(
   'any'
 )
