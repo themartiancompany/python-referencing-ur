@@ -18,7 +18,7 @@ _pkg=referencing
 pkgname="${_py}-${_pkg}"
 pkgver=0.35.1
 pkgrel=1
-pkgdesc=(
+_pkgdesc=(
   'An implementation-agnostic'
   'implementation of JSON reference resolution'
 )
