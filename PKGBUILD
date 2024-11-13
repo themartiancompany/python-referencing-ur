@@ -31,7 +31,8 @@ license=(
   'MIT'
 )
 depends=(
-  "${_py}"
+  "${_py}>=${_pymajver}"
+  "${_py}<${_pynextver}"
   "${_py}-attrs"
   "${_py}-rpds-py"
 )
