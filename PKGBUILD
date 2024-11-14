@@ -85,7 +85,7 @@ prepare() {
 build() {
   cd \
     "${pkgname}"
-  python \
+  "${_py}" \
     -m \
       build \
     --wheel \
@@ -102,7 +102,7 @@ check() {
 package() {
   cd \
     "${pkgname}"
-  python \
+  "${_py}" \
     -m \
       installer \
     --destdir="${pkgdir}" \
