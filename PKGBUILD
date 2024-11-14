@@ -107,7 +107,6 @@ package() {
       installer \
     --destdir="${pkgdir}" \
     dist/*.whl
-
   # symlink license file
   local \
     site_packages=$( \
